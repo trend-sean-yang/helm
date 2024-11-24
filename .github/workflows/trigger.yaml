@@ -1,6 +1,14 @@
 name: Comment when opened
 on:
   push:
+
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: write
+  repository-projects: write
+  actions: write
+
 jobs:
   comment:
     runs-on: ubuntu-latest
