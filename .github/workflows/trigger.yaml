@@ -28,7 +28,7 @@ jobs:
       - name: Trigger Workflow in Another Repository
         run: |
           gh workflow run target.yaml \
-            --repo trend-sean-yang/helm \
+            --repo trend-sean-yang/seanytest.github.io \
             --ref main \
             --field param1=value1 \
             --field param2=value2
