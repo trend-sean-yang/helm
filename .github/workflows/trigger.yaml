@@ -1,0 +1,23 @@
+name: Comment when opened
+on:
+  push:
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Authenticate GitHub CLI with GITHUB_TOKEN
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login
+      - name: List Workflow in Repository
+        run: |
+          gh workflow list
+      - name: List Workflow in Repository
+        run: |
+          gh workflow list --repo trend-sean-yang/seanytest.github.io
+      - name: Trigger Workflow in Another Repository
+        run: |
+          gh workflow run target.yaml \
+            --repo trend-sean-yang/seanytest.github.io \
+            --ref main \
+            --field param1=value1 \
+            --field param2=value2
