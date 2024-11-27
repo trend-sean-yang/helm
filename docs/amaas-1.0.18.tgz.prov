@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.6.0
+description: A Helm chart for V1FS Kubernetes
+name: amaas
+type: application
+version: 1.0.18
+
+...
+files:
+  amaas-1.0.18.tgz: sha256:fe0b50f46ccb258729d4b5967f390a16a5123e2ecd7c0848694511791111c7cd
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJnReqCCRAPZj0XvlxSPwAA/3oQABaiBGIL+4dscIAIjoGZC56v
+o1OX9YcmNLTePRbiIN89Lj9G6ztY5Jzj1nf0qTwBjDHv7U4Gqtryh5gcylM8kz1J
+g3RU2K5aIFqCGYAhYQq4hirqQsaa/Zszh2jgq/UfaZ7D2tp3thMFaOcIB6p9rwPz
+ILSmrB4/Na2QpDojnXJ+E4M0j8I4JyYr2nJ32esTnyrCKMRRJg5hzz60sSDdL/mN
+Lrv3sQxvNDjCKqwwgflxWbHvTB8FgZN3shfN+SnVtAwYmSEnzfq5ddLs2Ceesc9W
+/mfy7GLtIQFYkGQ0KSvJpzGa3oA5RiPqWhRLqAkeeKvryycMyQTFMj7g7AExUOx/
+MEjFtlOIfRocN3lSK6E9M/CuCjDPF+XQTmlw/S4uiocJjecTEfKloyqW/Totv2Z+
+/4tnygDJHuI8yfZ06XyYctDVDhsqMjb/waiCT76BlL6i+WLuj80vpy+avv+fxgKB
+4p8mzSnQgEZtiJdv6Db1OQO6tlKsFqJFf2+RFKnYqrccBRFrsqnhnQMP6tA1nwFR
+uQiwPwitWZBtwSvSzMdt8e1d9eaiXOECvq/nlAmclkj06E8Ld2DHUSwgQpFRUq5j
+ULR8u0jD6SmmTIJHYncM088/muB0ST5+z6QN8E2Q5ejcQqjgpT/voAjO/VHxDu66
+0+ej6ui2/U2yU4RCXkeR
+=DbWz
+-----END PGP SIGNATURE-----
