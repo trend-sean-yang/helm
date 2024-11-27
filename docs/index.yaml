@@ -3,22 +3,22 @@ entries:
   amaas:
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2024-11-27T09:12:10.519299+08:00"
+    created: "2024-11-27T20:36:28.940671+08:00"
     description: A Helm chart for V1FS Kubernetes
     digest: fe0b50f46ccb258729d4b5967f390a16a5123e2ecd7c0848694511791111c7cd
     name: amaas
     type: application
     urls:
-    - https://trendmicro.github.io/test/amaas-1.0.18.tgz
+    - https://trend-sean-yang.github.io/helm/amaas-1.0.18.tgz
     version: 1.0.18
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2024-11-27T09:12:10.518254+08:00"
+    created: "2024-11-27T20:36:28.939245+08:00"
     description: A Helm chart for V1FS Kubernetes
     digest: bf8154dea09850ec6f39988f1aeaa19cea23f04a14251ca9e782c163044d3763
     name: amaas
     type: application
     urls:
-    - https://trendmicro.github.io/test/amaas-1.0.15.tgz
+    - https://trend-sean-yang.github.io/helm/amaas-1.0.15.tgz
     version: 1.0.15
-generated: "2024-11-27T09:12:10.516236+08:00"
+generated: "2024-11-27T20:36:28.938026+08:00"
